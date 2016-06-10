@@ -1,6 +1,10 @@
 //creating the application module
 
-angular.module('farmersMarket',["farmersMarket.register"]);
+angular.module("farmersMarket",["farmersMarket.register",
+	"farmersMarket.login",
+	"farmersMarket.home",
+	"farmersMarket.cart"
+	]);
 
 
 angular.module("farmersMarket")
