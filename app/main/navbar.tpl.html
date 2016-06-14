@@ -21,7 +21,7 @@
                               <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li ng-repeat="item in tabs" ng-click="loadView(item)"><a href="#">{{item.display}}</a></li>
+                                <li ng-repeat="tab in tabs" ng-click="loadView(tab)"><a href="#">{{tab.display}}</a></li>
                             </ul>
                           </div>
 
@@ -34,7 +34,7 @@
                     </div>
                   </div>
                    <ul class="nav navbar-nav navbar-right">
-                        <li ng-click="loagLogin()"><a href="#" style="line-height:5px;font-size:17px;">Login</a></li>
+                        <li ng-click="loadLogin()"><a href="#" style="line-height:5px;font-size:17px;">Login</a></li>
                     </ul>
 
                   
