@@ -14,29 +14,29 @@
 	<body>
 		<div class="container" ng-controller="mainCtrl">
 			<div ng-include="navigationTemplate"></div>
-			<div ng-controller="homeCtrl">
-				<div class="col-xs-4">
-					<h1 ng-bind="title"></h1>
-					<input ng-model="name"></input>
-
-				</div>
-				<button class="btn btn-info" ng-click="cliclMe()">Click Me</button>
-			</div>
+			<div ng-include="contentTemplate"></div>
+			
+			
 
 
 		</div>	
 
-		<script src="app/main/mainCtrl.js"></script>
-
 		<script src="app/home/home.js"></script>
 		<script src="app/home/homeCtrl.js"></script>
 
+		
+
 		<script src="app/register/register.js"></script>
+
 		<script src="app/login/login.js"></script>
+		<script src="app/login/loginCtrl.js"></script>
+
+
 		<script src="app/cart/cart.js"></script>
 
 	
 		<script src="app/app.js"></script>
+		<script src="app/main/mainCtrl.js"></script>
 
 	
 	</body>
